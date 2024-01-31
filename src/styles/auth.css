@@ -1,0 +1,109 @@
+.auth{
+    width: 100%;
+    height: 100vh;
+    /*background: #919496 !important;*/
+    /*background-color: rgba(0, 0, 0, 0.737) !important*/
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.737) 0%, rgba(0, 0, 0, 0.137) 37%, rgba(10, 17, 11, 0.537) 100%) !important;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.737) 0%,rgba(0, 0, 0, 0.137) 37%,rgba(10, 17, 11, 0.537) 100%) !important;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.737) 0%,rgba(0, 0, 0, 0.137) 37%,rgba(10, 17, 11, 0.537) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f2f5f6", endColorstr="#c8d7dc",GradientType=0 ) !important;
+}
+
+.estilo1{
+    background-color: rgba(0, 127, 127, 0.737) !important;
+   /* position: absolute;*/
+    /*pointer-events: auto;
+    user-select: none;
+    transform: translate(-50%, -50%) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1050, 90, 0, 1);*/
+    /*transform: translate(-50%, -50%) matrix3d(0.653817, 0, 0.756652, 0, -0.230843, -0.952325, 0.19947, 0, -0.720579, 0.305085, 0.622647, 0, -576.463, 244.068, 498.117, 1);*/
+    box-shadow: 0px 0px 12px rgb(0 255 255 / 50%);
+    border: 1px solid rgba(127,255,255,0.25);
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    line-height: normal;
+    cursor: default;
+}
+
+
+.estilo1:hover {
+    box-shadow: 0px 0px 12px rgb(0 255 255 / 75%);
+    border: 1px solid rgba(127,255,255,0.75);
+}
+
+
+
+.estilo1c{
+    background-color: rgba(0, 127, 127, 0.137) !important;
+   /* position: absolute;*/
+    /*pointer-events: auto;
+    user-select: none;
+    transform: translate(-50%, -50%) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1050, 90, 0, 1);*/
+    /*transform: translate(-50%, -50%) matrix3d(0.653817, 0, 0.756652, 0, -0.230843, -0.952325, 0.19947, 0, -0.720579, 0.305085, 0.622647, 0, -576.463, 244.068, 498.117, 1);*/
+    /*transform: translate(-50%, -50%) matrix3d(100, 100, 100, 10, 10, 10, 10,10, 10, 410, 10, 10, 10, 10, 10, 10);*/
+    transform: translate(-50%, -50%) matrix3d(1, 0.12, 0.12, 0.002, 0.02, 1, 0, 0, 0, 0, 0.8, 0, 80, 80, 20, 1);
+    box-shadow: 0px 0px 12px rgb(0 255 255 / 50%);
+    border: 1px solid rgba(127,255,255,0.25);
+    border-radius: 20%;
+    margin-left: 15px;
+    top: -15px;
+    width: 140px;
+    height: 150px;
+    /*font-family: Roboto, sans-serif;*/
+    font-family: 'Bakbak One', cursive;
+    text-align: center;
+    line-height: normal;
+    cursor: default;
+    overflow: hidden;
+}
+
+
+.estilo1c:hover {
+    box-shadow: 0px 0px 12px rgb(0 255 255 / 75%);
+    border: 1px solid rgba(127,255,255,0.75);
+}
+
+
+
+.estilo2{
+    background-color: rgba(0, 127, 127, 0.33) !important;
+
+
+    background: -moz-linear-gradient(top, rgba(0, 127, 127, 0.33) 0%, rgba(0, 127, 127, 0.53) 37%, rgba(0, 127, 127, 0.13) 100%) !important;
+    background: -webkit-linear-gradient(top, rgba(0, 127, 127, 0.33) 0%,rgba(0, 127, 127, 0.53) 37%,rgba(0, 127, 127, 0.13) 100%) !important;
+    background: linear-gradient(to bottom, rgba(0, 127, 127, 0.33) 0%,rgba(0, 127, 127, 0.53) 37%,rgba(0, 127, 127, 0.13) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f2f5f6", endColorstr="#c8d7dc",GradientType=0 ) !important;
+
+    /*position: relative;*/
+    pointer-events: auto;
+    user-select: none;
+    /*transform: translate(-50%, -50%) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1190, 90, 0, 1);*/
+    /*width: 120px;
+    height: 160px;*/
+    box-shadow: 0px 0px 12px rgb(0 255 255 / 50%);
+    border: 1px solid rgba(127,255,255,0.25);
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    line-height: normal;
+    cursor: default;    
+
+
+}
+
+.estilotex {
+    /*position: absolute;
+    top: 40px;
+    left: 0px;
+    right: 0px;*/
+    font-size: 16px;
+    /*font-family: Roboto, sans-serif;*/
+    /*font-family: 'Bakbak One', cursive;*/
+    font-family: 'Orbitron', sans-serif;
+    /*font-weight: bold;*/
+    color: rgba(255,255,255,0.8);
+    text-shadow: 0 0 5px rgb(0 255 255 / 5%);
+    /*text-shadow: 0 0 10px rgb(0 255 255 / 95%);*/
+}
+
+.form-group {
+    margin-bottom: 0.2rem !important;
+}
